@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXXXXXXX - Aerospace Engineering Portfolio</title>
+    <style>
+        :root {
+            --primary: #1A365D;
+            --secondary: #2B6CB0;
+            --bg-light: #F7FAFC;
+            --text-dark: #2D3748;
+            --text-light: #718096;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-dark);
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 4rem 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            color: #E2E8F0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .skill-category {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary);
+        }
+        .skill-category h3 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            background: #ffffff;
+            border: 1px solid #E2E8F0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        @media(min-width: 768px) {
+            .project-card {
+                flex-direction: row;
+            }
+        }
+        .project-image {
+            background-color: #EDF2F7;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-style: italic;
+            border-bottom: 1px solid #E2E8F0;
+            flex: 1;
+            /* Replace this div with an <img> tag when adding your real photos */
+        }
+        @media(min-width: 768px) {
+            .project-image {
+                border-bottom: none;
+                border-right: 1px solid #E2E8F0;
+                max-width: 350px;
+            }
+        }
+        .project-info {
+            padding: 2rem;
+            flex: 2;
+        }
+        .project-info h3 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+        .role {
+            font-weight: 600;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            display: block;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>XXXXXXXX [cite: 1]</h1>
+        <p>Bachelor of Science in Aerospace Engineering [cite: 5] | Expected June 2027 [cite: 4]</p>
+        <p>University of XXXXXX, XXXX [cite: 4]</p>
+        <p>XXXXXX@gmail.com [cite: 2] | XXX-XXX-XXXX [cite: 2]</p>
+    </header>
+
+    <div class="container">
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Software & Programming</h3>
+                    <p>Microsoft Office, SolidWorks, MATLAB, Arduino IDE[cite: 7]. Python, Arduino (C++), HTML, JavaScript[cite: 8].</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Fabrication</h3>
+                    <p>3D printing, soldering, woodworking, machining[cite: 9].</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Coursework</h3>
+                    <p>Fluid Dynamics, Thermodynamics, Mechanics of Structures, Lightweight Structures, Statics, Dynamics, Circuits[cite: 10].</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Engineering Projects</h2>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert SolidWorks render of the JWST assembly here]
+                </div>
+                <div class="project-info">
+                    <h3>James Webb Space Telescope (JWST) CAD Model</h3>
+                    <span class="role">Independent Project [cite: 66]</span>
+                    <ul>
+                        <li>Modeled the James Webb Space Telescope after taking PHYS 20A[cite: 67, 68].</li>
+                        <li>Successfully modeled complex geometries, including slightly concave hexagonal mirrors[cite: 69].</li>
+                        <li>Troubleshot complex geometrical errors in SolidWorks documentation to successfully merge and extrude-cut surfaces for the solar shields[cite: 71, 72].</li>
+                        <li>Produced a highly detailed model in a fraction of the time compared to previous CAD builds[cite: 73].</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert CAD render of the International Space Station here]
+                </div>
+                <div class="project-info">
+                    <h3>MAE 52 International Space Station Model</h3>
+                    <span class="role">Academic Project [cite: 59]</span>
+                    <ul>
+                        <li>Created a 3D model replica of the International Space Station utilizing several reference images and videos[cite: 60, 61].</li>
+                        <li>Made extensive use of revolves, 3D sketches, lofts, sweeps, surfaces, and extrusion functions to accurately shape each part[cite: 62].</li>
+                        <li>Successfully modeled the complete main body of the station[cite: 63].</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert CAD render of the butterfly-contour drone chassis here]
+                </div>
+                <div class="project-info">
+                    <h3>Peterworks Drone</h3>
+                    <span class="role">Drone Chassis Modeler and Team Lead [cite: 34]</span>
+                    <ul>
+                        <li>Modeled a butterfly-contour drone chassis in SolidWorks [cite: 35] designed specifically for 3D printing and laser cutting[cite: 76].</li>
+                        <li>Positioned and extrude-cut screw mounts, air vents, and velcro slots using assembly references[cite: 36, 79].</li>
+                        <li>Delegated tasks and initiated diligent communication to guide team members using advanced CAD knowledge[cite: 78].</li>
+                        <li>Successfully cut, printed, and assembled the drone efficiently prior to deadlines[cite: 80, 81].</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert photo/render of Rover II steering linkages here]
+                </div>
+                <div class="project-info">
+                    <h3>Engr 7A RC Obstacle Course Rover Steering System</h3>
+                    <span class="role">Steering Design Lead [cite: 17]</span>
+                    <ul>
+                        <li>Designed and fabricated a steering system for an Arduino-controlled RC rover using linkages and a single servo[cite: 18, 40, 41].</li>
+                        <li>Designed, modeled, and fabricated the system under a wooden chassis using SolidWorks and a Bambu 3D printer[cite: 19].</li>
+                        <li>Evaluated turning radius limitations (~100 feet) caused by T-shaped link angular displacement and servo slot constraints[cite: 44, 45, 46].</li>
+                        <li>Identified the critical need for advanced prototyping and simulation to correct design oversights prior to final assembly[cite: 47].</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert photo of Rover I autonomous chassis here]
+                </div>
+                <div class="project-info">
+                    <h3>Engr 7B Autonomous Tape-Following Rover Chassis</h3>
+                    <span class="role">Chassis Designer & Manufacturer [cite: 13]</span>
+                    <ul>
+                        <li>Constructed a chassis to house a claw subassembly and Arduino electronics for an autonomous tape-following rover[cite: 14, 15, 54].</li>
+                        <li>Operated drilling and woodworking equipment to manufacture the chassis and claw subassembly[cite: 16].</li>
+                        <li>Overcame challenges in designing screw hole mounts without initial claw dimensions by documenting designs for precision assembly[cite: 55, 56].</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert photo of the Autonomous Pneumatic Robot here]
+                </div>
+                <div class="project-info">
+                    <h3>XXX MAE – Autonomous Pneumatic Robot</h3>
+                    <span class="role">Controls Lead [cite: 20, 21]</span>
+                    <ul>
+                        <li>Simulated and compared open-loop, closed-loop, and hybrid feedback architectures[cite: 22].</li>
+                        <li>Implemented closed-loop control on Arduino using a magnetometer and encoder to autonomously navigate the competition trench[cite: 23].</li>
+                        <li>Assisted in robot assembly beyond role scope, including pneumatics, steering, and hardware[cite: 24].</li>
+                        <li>Supported experimental lead in iterative testing, troubleshooting, and full control loop validation[cite: 25].</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    [Image Template: Insert photo of JN-4D aircraft empennage here]
+                </div>
+                <div class="project-info">
+                    <h3>Aviation Museum Restoration Project</h3>
+                    <span class="role">Empennage Member [cite: 27, 28]</span>
+                    <ul>
+                        <li>Coordinated across subteams and museum staff on the restoration of a JN-4D “Curtis Jenny” Aircraft[cite: 29].</li>
+                        <li>Organized documentation, performed parts inventory, and cross-referenced components with engineering drawings[cite: 30].</li>
+                        <li>Modeled elevator subassembly parts in CAD using scanned engineering drawings for dimensioning and reference[cite: 31].</li>
+                        <li>Manufactured and assembled empennage parts, drilling and tapping the metal frame and cold welding wooden supports[cite: 32].</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 XXXXXXXX. Designed for Aerospace Engineering.</p>
+    </footer>
+
+</body>
+</html>
